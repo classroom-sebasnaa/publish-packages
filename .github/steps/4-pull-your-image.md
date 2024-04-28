@@ -37,12 +37,12 @@ Si todo salió bien, :crossed_fingers: deberías ver ``Login Succeeded`` en tu t
 ### :keyboard: Actividad: Extraer tu imagen
 
 1. Copia y pega el comando `pull` de las instrucciones del paquete en tu terminal. Debería verse algo como esto:
-   - `docker pull ghcr.io/NOMBRE_DE_USUARIO/publish-packages/game:TAG`
+   - `docker pull ghcr.io/NOMBRE_DE_ORGANIZACION/publish-packages/game:TAG`
      ![captura de pantalla del comando pull en la página del paquete GitHub](https://user-images.githubusercontent.com/3250463/219254981-9ff949fa-4d01-46e3-9e3d-b8ce3710c2a9.png)
    - _Consejo: Para llegar a esta página, haz clic en la pestaña **Code** en la parte superior de tu repositorio. Luego, encuentra la barra de navegación debajo de la descripción del repositorio y haz clic en el enlace del encabezado **Packages**_
-1. Reemplaza `NOMBRE_DE_USUARIO` con tu nombre de usuario de GitHub.
+1. Reemplaza `NOMBRE_DE_ORGANIZACION` con tu nombre de tu organización.
 1. Reemplaza `TAG` con la etiqueta de la imagen.
 1. Presiona **Enter**.
-1. Deberías ver una salida que indique que la extracción fue exitosa, como `Status: Downloaded newer image for ghcr.io/NOMBRE_DE_USUARIO/publish-packages/game:TAG`.
+1. Deberías ver una salida que indique que la extracción fue exitosa, como `Status: Downloaded newer image for ghcr.io/NOMBRE_DE_ORGANIZACION/publish-packages/game:TAG`.
    ![captura de pantalla de la salida exitosa de la imagen Docker](https://user-images.githubusercontent.com/3250463/219255178-3c943a6f-6c15-4f59-9002-228249b1c469.png)
 1. _No podemos verificar automáticamente este paso por ti, ¡así que por favor continúa con el siguiente paso a continuación!_
