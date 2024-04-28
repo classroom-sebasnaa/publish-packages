@@ -68,7 +68,7 @@ Comenzaremos creando el archivo de flujo de trabajo para publicar una imagen de 
              tags: ${{ steps.meta.outputs.tags }}
    ```
 
-1. Reemplaza `TU_NOMBRE` con tu nombre de usuario.
+1. Reemplaza `TU_NOMBRE` con el nombre de la organización. Recuerda que estamos usando una organización usa el nombre de la organización y agregar tu nombre como sufijo a publish-packages.
 1. Asegúrate de que el nombre de la imagen sea único.
 1. Haz commit a tus cambios.
 1. (opcional) Crea una solicitud de extracción para ver todos los cambios que realizarás a lo largo de este curso. Haz clic en la pestaña **Pull Requests**, luego en **New pull request**, establece `base: stemdo` y `compare: cd`.
